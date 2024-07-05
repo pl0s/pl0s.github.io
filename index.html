@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Mumper's Portfolio</title>
+    <link rel="stylesheet" href="Portfolio_files/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Aaron Mumper's Portfolio</h1>
+      <div class="contact-info">
+        <p>Email: mumperaaron1@gmail.com</p>
+        <p>
+          GitHub:
+          <a href="https://github.com/pl0s" target="_blank">pl0s</a>
+        </p>
+        <p>Discord: pl0s</p>
+      </div>
+
+      <div class="button-container">
+        <a href="Images/Resume.pdf" target="_blank" class="download-button">Download Resume</a>
+        <button id="open-image-btn">Share QR</button>
+        <!-- Button to open image in overlay -->
+      </div>
+    </header>
+
+    <div class="developer-photo">
+      <img src="Images/portfoliopic.PNG" alt="me">
+    </div>
+
+    <div class="developer-info">
+      <div class="developer-description">
+        <h2>Aaron Mumper</h2>
+        <p>
+          Game Developer Creating passion projects since 2021.
+          Proficient in Unity Engine & Blender. I love creating new worlds and experiences to share with others.
+          No matter the challenge, I always get through it to achieve my goals.
+        </p>
+      </div>
+    </div>
+
+    <main>
+      <section class="portfolio-item">
+        <a href="https://store.steampowered.com/app/2530550/Cerulean_Singe/" target="_blank">
+          <img src="Images/csportfolio.PNG" alt="Cerulean Singe preview">
+          <h2>Cerulean Singe</h2>
+          <p>
+            My current project in development since 2022. A first-person souls-like focusing on snappy and satisfying combat. I spend my freetime chipping away at it, and hoping to get a demo out by late 2024.
+
+          </p>
+        </a>
+      </section>
+
+      <section class="portfolio-item">
+        <a href="https://pl0s.itch.io/krobif" target="_blank">
+          <img src="Images/Krobif.png" alt="Krobif Preview">
+          <h2>K.R.O.B.I.F.</h2>
+          <p>
+            A project that started as just a small game jam game, which I continued to work on for a few months after. The game only consists of a sandbox level to play around with the mechanics I implemented.
+          </p>
+        </a>
+      </section>
+
+      <section class="portfolio-item">
+        <a href="https://pl0s.itch.io/goober-eats" target="_blank">
+          <img src="Images/goobereats.png" alt="goober eats preview">
+          <h2>Goober Eats</h2>
+          <p>
+          A student project I created in my first year of college to learn the Construct 3 game engine. The goal of the game is to deliver the food to the customer by trespassing on a construction site, all while avoiding obstacles.
+          </p>
+        </a>
+      </section>
+
+      <section class="portfolio-item">
+        <a href="https://pl0s.itch.io/hells-deli" target="_blank">
+          <img src="Images/hellsdeli.png" alt="hell's deli preview">
+          <h2>Hell's Deli</h2>
+          <p>
+            One of my most polished games, Hell's deli is another game jam project created alongside a teammate who handled most of the art. The game is about making sandwiches in hell, and your goal is to get a higher score than the demon chef competing against you.
+          </p>
+        </a>
+      </section>
+
+      <section class="portfolio-item">
+        <a href="https://pl0s.itch.io/off-the-frozen-rock" target="_blank">
+          <img src="Images/offthefrozenrock.png" alt="frozen rock preview">
+          <h2>Off The Frozen Rock</h2>
+          <p>
+            This was the first completed game I created back in 2021. It is a VR game in which the player goes around a small floating island collecting rocks to power a cannon to launch themselves off the island, all while keeping track of their body temperature to stay alive.
+          </p>
+        </a>
+      </section>
+
+      <!--place to add more projects-->
+    </main>
+
+    <!-- Overlay for displaying image -->
+    <div id="overlay">
+      <div id="overlay-content">
+        <span id="close-button">×</span>
+        <img id="overlay-image" src="Images/PortfolioQR.png" alt="qr">
+      </div>
+    </div>
+
+    <script src="Portfolio_files/script.js"></script>
+  
+
+</body></html>
